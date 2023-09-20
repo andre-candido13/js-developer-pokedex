@@ -46,10 +46,15 @@ function convertPokemonToLi2(pokemon) {
                       
             </div>
 
+            <div class="containerHabilidades">
             <span class="name">${pokemon.name}</span>
             <span class="weight">  Altura: <span class="altura">${pokemon.weight}</span> </span>
             <span class="height">  Peso: <span class="peso">${pokemon.height}</span> </span>
+            <span class="move"> Primeiro Ataque: <span class="ataque1"> ${pokemon.moves[0].move.name}</span> </span>
+            <span class="move"> Segundo Ataque: <span class="ataque1"> ${pokemon.moves[1].move.name}</span> </span>
+            <span class="move"> Terceiro Ataque: <span class="ataque1"> ${pokemon.moves[2].move.name}</span> </span>
 
+            </div>
 
         </li>
         

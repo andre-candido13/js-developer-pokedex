@@ -9,11 +9,17 @@
     color: white;
   }
 
+  .containerHabilidades {
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+  }
+
  .height {
     color: red;
     opacity: .8;
     text-align: right;
-    font-size: 1.5rem;
+    font-size: 1rem;
     
 }
 
@@ -21,7 +27,7 @@
     color: red;
     opacity: .8;
     text-align: right;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .peso {
@@ -34,7 +40,18 @@
 
 .name {
         margin-top: 15px;
-        font-size: 1.5em;
+        font-size: 1.5rem;
+}
+
+.move {
+    color: red;
+    opacity: .8;
+    text-align: right;
+    font-size: 1.0rem;
+}
+
+.ataque1{
+    color: blue;
 }
 
 .detail .img {
